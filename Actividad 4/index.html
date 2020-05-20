@@ -1,0 +1,125 @@
+<!doctype html>
+<html>
+
+<head>
+	<title>Titulo de Pagina</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+
+<body class="m-3">
+	<h1> Si hay datos hay tabla </h1>
+	<h2> tabla simple </h2>
+	<p>tabla - cuerpo - fila - celda</p>
+	<table class="table table-bordered">
+		<!-- tbody= table body-->
+		<tbody>
+			<!--tr= table row -->
+			<tr>
+				<!-- td= table data cell -->
+				<td>
+					hola
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<h2>Multiples filas y columnas</h2>
+	<table class="table table-bordered">
+		<tbody>
+			<tr>
+				<td>x</td>
+				<td>o</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>o</td>
+				<td>x</td>
+				<td></td>
+			</tr>
+
+			<tr>
+				<td></td>
+				<td>o</td>
+				<td>x</td>
+			</tr>
+		</tbody>
+	</table>
+	<h2> Tabla con cabecera, cuerpo, pie de pagina</h2>
+
+	<table class="table table-bordered table-striped table-hover table-dark">
+		<caption> tabla sin mucho sentido</caption>
+		<thead>
+			<!--th:table head data-->
+			<tr>
+				<th>Clave</th>
+				<th>Valor</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td><strong>Nombre</td>
+        <td>Bob</td>
+			</tr>
+      	<tr>
+				<td><strong>Apellido</td>
+        <td>Esponja</td>
+			</tr>
+		</tbody>
+    <tfoot>
+      <th>Total</th>
+      <th>Bob Esponja te amo</th>
+    </tfoot>
+   
+	</table>
+   <h2>Columnas Largas</h2>
+  <table class="table table-bordered table-striped table-hover table-dark"> 
+    <thead class= "table-dark">
+      </tr>
+     <tr>
+        <th colspan="2">INPUT</th>
+      <th colspan="2">OUTPUT</th>
+      
+    </tr>
+    <tr>
+        <th>A</th>
+      <th>B</th>
+      <th>And</th>
+      <th>Or</th>
+   
+     </thead>
+    <tbody>
+      <tr>
+        <td>true</td>
+        <td>true</td>
+        <td>true</td>
+        <td>true</td>
+
+      </tr>
+      <tr>
+        <td>false</td>
+        <td>fase</td>
+        <td>false</td>
+        <td>true</td>
+
+      </tr>
+      <tr>
+          <td>false</td>
+        <td>false</td>
+       <td>true</td>
+       <td>true</td>
+
+      </tr>
+      <tr>
+        <td>false</td>
+        <td>false</td>
+        <td>false</td>
+        <td>false</td>
+
+      </tr>
+      
+    </tbody>
+
+  </table>
+</body>
+
+</html>
